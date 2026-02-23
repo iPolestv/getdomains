@@ -1,7 +1,7 @@
-name: Scheduled Workflow 1
+name: Test Push
 on:
-  schedule:
-    - cron: '55 6 * * *'  # Каждый день в полночь UTC
+  push:
+    
 jobs:
   run-task:
     runs-on: ubuntu-latest
@@ -14,4 +14,5 @@ jobs:
         run: echo $PWD > patch1.txt
       - name: Выполнение команды
         run: |
+          echo $PWD
           echo "Этот шаг выполняется по графику!"
