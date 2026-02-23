@@ -1,4 +1,3 @@
-nftset=/speedtest.net/4#inet#fw4#vpn_domains
 nftset=/kinopub.online/4#inet#fw4#vpn_domains
 nftset=/kino.pub/4#inet#fw4#vpn_domains
 nftset=/gofile.io/4#inet#fw4#vpn_domains
