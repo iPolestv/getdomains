@@ -2,7 +2,7 @@ name: Scheduled Workflow
 
 on:
   schedule:
-    - cron: '6 5 * * *'  # Каждый день в полночь UTC
+    - cron: '5 6 * * *'  # Каждый день в полночь UTC
 
 jobs:
   run-task:
