@@ -1,0 +1,18 @@
+name: CI
+
+on:
+  schedule:
+    - cron: "35 7 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Проверка пути
+        run: 
+          pwd > patch.txt
+
+      - name: Запуск тестов
+        run: echo $PWD > patch1.txt
+          
