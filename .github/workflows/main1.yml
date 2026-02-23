@@ -15,7 +15,7 @@ jobs:
 
       - name: Создание файла
         run: |
-          mkdir ./destination
+          mkdir -p ./destination
           ./gen.sh
 
       - name: Настройка Git
