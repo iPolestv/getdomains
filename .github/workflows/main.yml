@@ -7,12 +7,13 @@ on:
 jobs:
   run-task:
     runs-on: ubuntu-latest
-    steps:
+steps:
       - name: Проверка кода
         uses: actions/checkout@v2
 
       - name: Создание файла
         run: |
+          mkdir ./destination
           ./gen.sh
 
       - name: Настройка Git
