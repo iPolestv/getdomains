@@ -1,7 +1,7 @@
 name: Scheduled Workflow
 on:
   schedule:
-    - cron: '15 6 * * *'  # Каждый день в полночь UTC
+    - cron: '25 6 * * *'  # Каждый день в полночь UTC
 jobs:
   run-task:
     runs-on: ubuntu-latest
