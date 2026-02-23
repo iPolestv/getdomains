@@ -1,4 +1,6 @@
 name: Scheduled Workflow
+permissions:
+  contents: write
 on:
   schedule:
     - cron: '0 0 * * *'  # Каждый день в полночь UTC
