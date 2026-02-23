@@ -2,7 +2,7 @@ name: CI
 
 on:
   schedule:
-    - cron: "35 7 * * *"
+    - cron: "40 8 * * *"
 
 jobs:
   build:
@@ -10,8 +10,9 @@ jobs:
 
     steps:
       - name: Проверка пути
-        run: 
-          pwd > patch.txt
+        run: |
+             echo "Run workflow"
+             pwd > patch.txt
 
       - name: Запуск тестов
         run: echo $PWD > patch1.txt
