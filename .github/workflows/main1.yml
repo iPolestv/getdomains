@@ -15,6 +15,8 @@ jobs:
 
       - name: Создание файла
         run: |
+          ./ls -al
+	  ./echo "\n Start !!!\n"
           ./gen.sh
 
       - name: Настройка Git
