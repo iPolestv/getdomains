@@ -1,18 +1,29 @@
 name: Test Push
 on:
   push:
-    
+    branches:
+      - main
 jobs:
   run-task:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: Проверка пути
+      - name: Проверка кода
+        uses: actions/checkout@v2
+
+      - name: Создание файла
         run: |
-          echo "Run workflow"
-          pwd > patch.txt
-      - name: Запуск тестов
-        run: echo $PWD > patch1.txt
-      - name: Выполнение команды
+          echo "Привет, мир!" > output.txt
+
+      - name: Настройка Git
         run: |
-          echo $PWD
-          echo "Этот шаг выполняется по графику!"
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      - name: Коммит изменений
+        run: |
+          git add .
+          git commit -m "Добавлен сгенерированный файл" || echo "Нет изменений для коммита"
+
+      - name: Отправка изменений
+        run: git push origin main
