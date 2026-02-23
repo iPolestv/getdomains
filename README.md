@@ -1,1 +1,1 @@
-# getdomains 1
+# getdomains 1 2
