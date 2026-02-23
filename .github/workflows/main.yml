@@ -1,13 +1,10 @@
 name: Scheduled Workflow
-
 on:
   schedule:
-    - cron: '8 6 * * *'  # Каждый день в полночь UTC
-
+    - cron: '15 6 * * *'  # Каждый день в полночь UTC
 jobs:
   run-task:
     runs-on: ubuntu-latest
-
     steps:
       - name: Проверка пути
         run: |
@@ -18,4 +15,3 @@ jobs:
       - name: Выполнение команды
         run: |
           echo "Этот шаг выполняется по графику!"
-          
