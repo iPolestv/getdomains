@@ -15,6 +15,6 @@ curl -f $DOMAINS_YOUTUBE --output $SP/youtube.txt
 
 
 #awk 'NF && !/\[|\]/ && !/#/ {print "nftset=/" $1 "/4#inet#fw4#vpn_domains"}' $SP/mydomains_tp-link.txt $SP/geoblock.txt $SP/meta.txt $SP/tiktok.txt $SP/telegram.txt $SP/hosts-google.txt $SP/youtube.txt  >$SP/domains_tp-link.lst
-awk 'NF && !/\[|\]/ && !/#/ {print "nftset=/" $1 "/4#inet#fw4#vpn_domains"}' $SP/mydomains_tp-link.txt $SP/geoblock.txt $SP/meta.txt $SP/tiktok.txt $SP/telegram.txt $SP/youtube.txt > $DP/domains_tp-link.lst
+awk 'NF && !/\[|\]/ && !/#/ {print "nftset=/" $1 "/4#inet#fw4#vpn_domains"}' $SP/mydomains_tp-link.txt $SP/geoblock.txt $SP/meta.txt $SP/tiktok.txt $SP/telegram.txt $SP/hosts-google.txt $SP/youtube.txt  >$DP/domains_tp-link.lst 
 
 echo "\n OK \n"
