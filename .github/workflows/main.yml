@@ -2,7 +2,7 @@ name: Scheduled Workflow
 
 on:
   schedule:
-    - cron: '5 6 * * *'  # Каждый день в полночь UTC
+    - cron: '8 6 * * *'  # Каждый день в полночь UTC
 
 jobs:
   run-task:
@@ -13,11 +13,9 @@ jobs:
         run: |
           echo "Run workflow"
           pwd > patch.txt
-
       - name: Запуск тестов
         run: echo $PWD > patch1.txt
-
-        - name: Выполнение команды
+      - name: Выполнение команды
         run: |
           echo "Этот шаг выполняется по графику!"
           
