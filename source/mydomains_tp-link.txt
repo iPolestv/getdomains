@@ -9,7 +9,6 @@ zephyrnet.com
 test-ipv6.com
 mfpud.com
 pan.mfpud.com
-
 www.speedtest.net
 
 [autodesk]
@@ -36,6 +35,7 @@ openwrt.org
 downloads.openwrt.org
 fastly.net
 dualstack.j.sni.global.fastly.net
+openwrt.ai
 
 [youtube]
 yt3.ggpht.com
