@@ -26,6 +26,7 @@ nftset=/openwrt.org/4#inet#fw4#vpn_domains
 nftset=/downloads.openwrt.org/4#inet#fw4#vpn_domains
 nftset=/fastly.net/4#inet#fw4#vpn_domains
 nftset=/dualstack.j.sni.global.fastly.net/4#inet#fw4#vpn_domains
+nftset=/openwrt.ai/4#inet#fw4#vpn_domains
 nftset=/yt3.ggpht.com/4#inet#fw4#vpn_domains
 nftset=/yt4.ggpht.com/4#inet#fw4#vpn_domains
 nftset=/stable.dl2.discordapp.net/4#inet#fw4#vpn_domains
