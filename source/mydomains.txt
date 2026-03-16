@@ -1,5 +1,5 @@
 [group]
-#1e100.net
+1e100.net
 #Ib-in-f198.1e100.net
 kinopub.online
 kino.pub
