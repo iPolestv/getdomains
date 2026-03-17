@@ -503,6 +503,7 @@ nftset=/telesco.pe/4#inet#fw4#vpn_domains
 nftset=/tg.dev/4#inet#fw4#vpn_domains
 nftset=/tx.me/4#inet#fw4#vpn_domains
 nftset=/usercontent.dev/4#inet#fw4#vpn_domains
+nftset=/ton.org/4#inet#fw4#vpn_domains
 nftset=/googlevideo.com/4#inet#fw4#vpn_domains
 nftset=/youtubei.googleapis.com/4#inet#fw4#vpn_domains
 nftset=/ytimg.com/4#inet#fw4#vpn_domains
