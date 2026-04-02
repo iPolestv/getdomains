@@ -40,3 +40,5 @@ openwrt.ai
 yt3.ggpht.com
 yt4.ggpht.com
 stable.dl2.discordapp.net
+you-tube.com
+gvt1.com
