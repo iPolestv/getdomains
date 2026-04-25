@@ -11,6 +11,9 @@ mfpud.com
 pan.mfpud.com
 www.speedtest.net
 
+[factorio]
+factorio.zone
+
 [autodesk]
 autodesk.com
 www.autodesk.com
