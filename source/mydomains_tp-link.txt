@@ -4,6 +4,9 @@
 speedtest.net
 kinopub.online
 kino.pub
+kino.watch
+rutracker.org
+nnmclub.to
 gofile.io
 zephyrnet.com
 test-ipv6.com
